@@ -1,0 +1,41 @@
+{
+    "name": "orken/lbc-parser",
+    "description": "Parser Leboncoin",
+    "type": "library",
+    "keywords": [
+        "cakephp",
+        "parser",
+        "json",
+        "html",
+        "css"
+    ],
+    "homepage": "https://github.com/Orken/lbc-parser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Michel Subotkiewiez",
+            "email": "subotm@gmail.com",
+            "homepage": "http://www.superfetatoire.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.16",
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "LbcPaser\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "LbcParser\\Test\\": "tests"
+        }
+    },
+    "support": {
+        "email": "subotm+lbc-parser@gmail.com",
+        "issues": "https://github.com/Orken/lbc-parser/issues",
+        "source": "https://github.com/Orken/lbc-parser"
+    }
+}
